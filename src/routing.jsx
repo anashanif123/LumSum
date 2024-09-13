@@ -22,7 +22,7 @@ function RoutingApp() {
     <BrowserRouter>
     <Header/>
     <Routes>
-      <Route path="/" element={<Homepage/>}/>
+      {/* <Route path="/" element={<Homepage/>}/> */}
       <Route path="/signup" element={<Signup/>}/>
       <Route path="/products" element={<Products/>}/>
       <Route path="/login" element={<LoginForm/>}/>
